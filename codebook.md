@@ -1,6 +1,17 @@
 #Description of tidyData.txt
 
-var1: activityName LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS Mean and standard deviation of - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+var1: activityName 
+  Values:
+    - LAYING 
+    - SITTING
+    - STANDING
+    - WALKING
+    - WALKING_DOWNSTAIRS  
+    - WALKING_UPSTAIRS
+  Variable Type: factor with 6 levels
+  
+The other variables are Mean and standard deviation of - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+Variable Type: numeric
 
 var2: fBodyAcc-mean()-X
 
